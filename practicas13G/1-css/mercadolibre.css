@@ -1,0 +1,89 @@
+header{
+    background-color: #fff159;
+    padding: 20px 100px 200px 10px;
+}
+
+
+body {
+    background-color: #e6e6e6;
+}
+
+img {
+    height: 34px;
+    top: 11px;
+    width: 134px;
+    right: 1000px;
+}
+
+.center {
+    margin: -6.875rem auto 0;
+    max-width: 15.5rem;
+    padding: 10px 100px 30px 100px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 6px;
+    min-height: inherit;
+
+}
+
+.tarjeta {
+    font-size: 20px;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 600;
+    letter-spacing: .0125rem;
+    overflow-wrap: break-word;
+}
+
+.mainBottonAzul {
+    background-color: #3483fa;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px;
+    padding: 0 24px;
+    height: 48px;
+}
+
+.botonAzul{
+    border-color: transparent;
+    background-color: #3483fa;
+    color: #fff;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    text-decoration: none;
+}
+
+.mainBottonGris {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px;
+    padding: 0 24px;
+    height: 48px;
+}
+
+.BottonGris{
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: 0 0 0 0 #fff;
+    color: #3483fa;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    text-decoration: none;
+}
+
+.pieLink{
+    font-size: 14px;
+    font-size: .875rem;
+    color: rgba(0,0,0,.8)!important;
+}
+
+.piePag {
+    border-top: .0625rem solid black;
+    background: #fff;
+    height: 5.5rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    text-align: center;
+    margin-top: 910px;
+}
