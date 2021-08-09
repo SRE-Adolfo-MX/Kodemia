@@ -1,0 +1,125 @@
+body{
+    background-color:rgb(228, 222, 222);
+}
+
+img{
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#matebook {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #ultrabook {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
+  }
+
+  #HP {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
+  }
+
+
+.Item1{
+    background-color: #fff;   
+    object-fit: contain;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.Item2{
+    margin-top: 80px;
+}
+
+.oferta{
+    background-color: rgb(0, 110, 255);
+    width: 20px;
+    height: 200px;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.descripcion{
+    color: #333;
+    font-size: 20px;
+    width: 90%;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+.vendidoX{
+    color:grey;
+    margin-top: -2%;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+.item1{
+    margin-top: -10px;
+}
+
+.simbol{
+    color: black;
+    margin-right: 3px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+
+.simbol1{
+    color: #00a650;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.simbol3{
+    color: black;;
+    font-size: 10px;
+}
+
+.preciotag{
+    color:rgb(224, 222, 222);
+    font-size: 12px;
+    margin-right: 2px;
+    text-decoration: line-through;
+}
+
+.start {
+    color: #3483fa;
+    margin-left: 100px;
+}
+
+.start1 {
+    color: #3483fa;
+}
+
+.letra {
+    color: #fff;
+    margin-left: -12px;
+    background-color:#fff;
+}
+
+.numero{
+    color: grey;
+    font-size: 12px;
+}
