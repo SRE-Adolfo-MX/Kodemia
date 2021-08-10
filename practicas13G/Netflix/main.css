@@ -1,0 +1,130 @@
+main{
+}
+
+.menu{
+    border-color: grey;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;   
+    border-color: rgb(49, 49, 49);
+    border-style: solid;
+}
+
+h1{
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+h2{
+    color: #fff;
+    text-align:left;
+    font-size: 1.625rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    overflow-wrap: break-word;
+    height: 10px;
+}
+
+.submenu1{
+    width: 45%;
+    margin-left: 100px;
+    margin-top: 4%;
+}
+
+.image1{
+    margin-left: 20%;;
+}
+
+.image1 img{
+    width: 80%;
+    margin-right: 10%;
+}
+
+.image2 img{
+    width: 80%;
+    margin-right: 10%;
+
+}
+
+.Download{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    margin-top: 2PX;
+    margin: 20px;
+    height: 75px;
+    width: 30%;
+    border-radius: 6px;
+    margin-top: -60%;
+    margin-left: 10%;
+    opacity: 0.90;
+    border-color: grey;
+    box-sizing: content-box;
+    border-style: solid;
+    
+}
+
+.preguntas{
+    margin-top: 52%;
+    border-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;   
+    border-color: rgb(49, 49, 49);
+    border-style: solid;
+
+}
+
+.preguntas span{
+color: white;
+}
+
+.preguntas .submenu1{
+    text-align: left;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 40;
+    background-color: #303030;
+    margin-top: 10px;
+    padding: 20px 10px;
+}
+
+.preguntas h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.preguntas button{
+    background-color: red;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    border:none;
+    text-align: center;
+    color: white;
+}
+.Download img{
+    width: 50px;
+    margin-left: 10px;
+
+}
+
+.Download h1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.Download h2{
+    font-size: 15px;
+    color:rgb(69, 69, 247);
+    margin-top: -15px;
+    margin-left: 10px;
+}
