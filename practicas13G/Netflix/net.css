@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    margin: 0%;
+}
+
+body img{
+    height:  100%;
+}
+
+
+.headerCabecera{
+    color: white;
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content:space-between;
+    width: 150%;
+}
+
+.headerCabecera img{
+    height: 100px;
+}
+
+.headerCabecera form{
+    margin-top: 40px;
+}

@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+}
+
+#fondo{
+    width: 100%;
+    opacity: 0.5;
+}
+
+
+body{
+    position: static;
+    top 0%;
+}
+
+nav {
+    background-color:black;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: honeydew;
+}
+
+.cabecero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    position: absolute;
+    top: 500px;
+    width: 100%;
+}
+
+.cafeCentro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -300px;
+}
+
+.cafeCentro>button{
+    background-color: chocolate;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    border: 6px;
+    color: white;
+    height: 20px;
+    width: 165px;
+}
+
+.cafeCentro>button:active{
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    background-color: black;
+}
+
+.cabecero>#emoji{
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.cabecero>#emoji:active{
+    background-color: black;
+    transform: rotate(360deg);
+}
+
+@media (max-width: 509px) {
+    main{
+        top: 70px;
+    }
+    .cafeCentro{
+        margin-top: 10px;
+    }
+
+}
+
+footer{
+    background-color: black;
+}
+
+footer>img{
+    width: 100px;
+    opacity: 0.5;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer>table{
+    margin-top: -100px;
+    margin-left: 50px;
+    height: 100px;
+    width: 500px;
+    text-align: left;
+}

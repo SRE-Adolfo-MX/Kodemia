@@ -1,0 +1,159 @@
+body{
+    margin: 0%;
+    background-color:  black;
+}
+
+.fondo{
+opacity: 0.5;
+}
+
+
+
+.headerCabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    z-index: -0;
+    
+}
+
+.headerCabecera img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: -20px;
+    position: relative;
+}
+
+.headerCabecera select{
+    background: black;
+    color: white;
+}
+
+.headerCabecera button{
+    background-color: red;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    border: none;
+    color: white;
+    height: 20px;
+}
+
+.headerCentral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    position: static;
+}
+
+.headerCentral h1{
+    color: white;
+    height: 40px;
+    width: 90%;
+    text-align: center;
+}
+
+.headerCentral h2{
+    color: white;
+    height: 40px;
+    width: 90%;
+    text-align: center;
+}
+
+.headerCentral h3{
+    color: white;
+    height: 50px;
+    text-align: center;
+    width: 90%;
+}
+
+.headerCentral input{
+    height: 25px;
+    width: 300px;
+}
+
+.headerButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.headerButton button{
+    background-color: red;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    border: none;
+    color: white;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.mainContenedor1{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-top: 80px;
+}
+
+
+@media (min-width: 1220px) {
+    header img{
+        width: 10%;
+    }
+ 
+    
+    .headerButton{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .headerCabecera{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: -650px;
+        
+    }
+
+    header img{
+        width: 100%;
+    }
+
+    .headerCentral {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+        position: relative;
+    }
+
+    .headerCentral h1{
+        color: white;
+        height: 70px;
+        width: 50%;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .headerCentral input{
+        height: 40px;
+        width: 300px;
+        position: relative;
+    }
+
+    .headerButton button{
+        background-color: red;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        border: none;
+        font-size: 20px;
+        color: white;
+        height: 45px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+}

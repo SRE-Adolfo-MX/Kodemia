@@ -1,6 +1,10 @@
-main{
+body{
+    margin: 0%;
 }
 
+main{
+    margin: 0%;
+}
 .menu{
     border-color: grey;
     display: flex;
@@ -10,6 +14,13 @@ main{
     background-color: black;   
     border-color: rgb(49, 49, 49);
     border-style: solid;
+}
+
+@media (max-width: 425px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 h1{
@@ -80,8 +91,33 @@ h2{
     background-color: black;   
     border-color: rgb(49, 49, 49);
     border-style: solid;
-
 }
+
+@media (max-width: 550px) {
+    .preguntas>.submenu1{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+.preguntas>.Comenzar input {
+    margin-bottom: 10px;
+    width: 400px;
+   }
+
+@media (min-width: 1024px) {
+    .preguntas>.Comenzar {
+     display:flex;
+     flex-direction: row;
+     font-size: 16px;
+     border-radius: 2px;
+     height: 44px;
+    }
+    .preguntas>.Comenzar input {
+        height: 36px;
+       }
+}
+
 
 .preguntas span{
 color: white;
@@ -111,6 +147,7 @@ color: white;
     text-align: center;
     color: white;
 }
+
 .Download img{
     width: 50px;
     margin-left: 10px;
