@@ -1,0 +1,131 @@
+$color-cabecero-div: chartreuse;
+
+
+@mixin nav {
+    background-color:black;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: honeydew;    
+}
+
+@mixin main ($top, $width) {
+    position: absolute;
+    top: $top;
+    width: $width;
+}
+
+@mixin cafeCentro ($align-items, $flex-direction) {
+    display: flex;
+    position: static;
+    align-items: $align-items;
+    flex-direction: $flex-direction;   
+}
+
+@mixin button ($bg-color, $color) {
+    background-color: $bg-color;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    border: 6px;
+    color: $color;
+    height: 20px;
+    width:25%;
+}
+
+@mixin footer($direction, $justify){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    color: white;
+}
+
+body {
+    margin: 0%;
+    position: static;
+    #fondo{
+        width: 100%;
+        opacity: 0.5;
+    }
+}
+
+nav {
+    @include nav;
+    .cabecero>div:active{
+        transition: width 2s, height 2s, background-color 2s, transform 2s;
+        color: $color-cabecero-div; 
+    }
+}
+
+main {
+    @include main (200px, 100%);
+    width: 100%
+}
+
+.cafeCentro {
+    @include cafeCentro (center,column);
+}
+
+.cafeCentro>button {
+    @include button(black,white );
+}
+
+.cafeCentro>button:active{
+transition: width 2s, height 2s, background-color 2s, transform 2s;
+background-color: white;
+color: black;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+}
+
+footer>img{
+    width: 100px;
+    opacity: 0.5;
+}
+
+.footer{
+ @include footer(column,flex-start);
+}
+
+
+@media (min-width: 375px) {
+
+    main {
+        @include main (100px, 100%);
+        width: 100%
+    }
+}
+
+@media (min-width: 930px) {
+
+    main {
+        @include main (200px, 100%);
+        width: 100%
+    }
+
+    .cafeCentro>button {
+        @include button(black,white );
+        width: 13%;
+    }
+
+    .footer{
+        @include footer(row,center);
+        margin-top: -90px;
+       }
+       .footer:active{
+        @include footer(row,center);
+        margin-top: -90px;
+        transition: width 2s, height 2s, background-color 2s, transform 2s;
+        color: $color-cabecero-div; 
+       }
+
+       
+.cabecero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+}

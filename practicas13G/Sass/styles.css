@@ -1,0 +1,9 @@
+body {
+  background-color: yellow;
+}
+body nav {
+  color: white;
+}
+body nav:hover {
+  color: blue;
+}/*# sourceMappingURL=styles.css.map */

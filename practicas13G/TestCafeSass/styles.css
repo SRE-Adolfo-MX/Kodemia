@@ -1,0 +1,118 @@
+body {
+  margin: 0%;
+  position: static;
+}
+body #fondo {
+  width: 100%;
+  opacity: 0.5;
+}
+
+nav {
+  background-color: black;
+  position: absolute;
+  top: 1px;
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: honeydew;
+}
+nav .cabecero > div:active {
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  color: chartreuse;
+}
+
+main {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  width: 100%;
+}
+
+.cafeCentro {
+  display: flex;
+  position: static;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cafeCentro > button {
+  background-color: black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 6px;
+  color: white;
+  height: 20px;
+  width: 25%;
+}
+
+.cafeCentro > button:active {
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  background-color: white;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+}
+
+footer > img {
+  width: 100px;
+  opacity: 0.5;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+}
+
+@media (min-width: 375px) {
+  main {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    width: 100%;
+  }
+}
+@media (min-width: 930px) {
+  main {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    width: 100%;
+  }
+
+  .cafeCentro > button {
+    background-color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 6px;
+    color: white;
+    height: 20px;
+    width: 25%;
+    width: 13%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    margin-top: -90px;
+  }
+
+  .footer:active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    margin-top: -90px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    color: chartreuse;
+  }
+
+  .cabecero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=styles.css.map */

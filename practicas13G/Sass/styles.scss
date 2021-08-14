@@ -1,0 +1,9 @@
+body{
+    background-color: yellow;
+    nav{
+        color:white;
+        &:hover {
+            color: blue;
+        }
+    }
+}
