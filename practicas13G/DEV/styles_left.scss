@@ -1,0 +1,162 @@
+$disp: flex;
+
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+@mixin left_navegador($display) {
+
+    .Navegador {
+        display: $display;
+        flex-direction: row;
+        justify-content:space-between;
+        width: 100%;
+        position: fixed;
+        z-index: 90;
+        border-color: black;
+        background-color: whitesmoke;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 450px;
+        margin-left: -100px;
+        border-radius: 1px;
+    }
+
+    #search {
+        outline:none;
+        border-color: white;
+        background-color: white;
+        margin-left: -170px;
+        opacity: 0.3;
+    }
+
+
+}
+
+@mixin left_leftOne($display) {
+    
+    .leftOne {
+        display: $display;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+    ul {
+        ol{
+            margin-left: -80px;
+            height: 35px;
+            span {
+                svg {
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
+}
+
+@mixin left_leftOne_active($display) {
+    
+    .leftOne {
+
+    ul {
+
+        ol:hover{
+            margin-left: -80px;
+            height: 35px;
+            cursor: pointer;
+            transition: width 2s, height 2s, background-color 2s, transform 2s, linear;
+            color: rgb(0, 0, 121); 
+            background-color: rgb(196, 196, 196);
+            span {
+                svg {
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
+}
+
+@mixin left_socialmedia($display) {
+    
+    .socialmedia{
+        margin-left: 1px;
+        display: $display;
+        flex-direction: row;
+        color: grey;
+    }
+    span{
+        width: 30px;
+        
+    }
+}
+
+@mixin left_socialmedia_action {
+    
+    span:hover{
+        width: 30px;
+        cursor: pointer;
+        transition: width 2s, height 2s, background-color 2s, transform 2s, linear;
+        background-color: rgb(196, 196, 196);
+    }
+}
+
+@mixin left_tag($display) {
+    .tag {
+        margin-top: 10px;
+        display: $display;
+        width: 180px;
+        justify-content: space-between;
+
+       h3 {
+           margin-top: 5px;
+           height: 10px;
+       }
+    }
+}
+
+nav{
+
+@include left_navegador(flex);
+height: 50px;
+    img {
+        width: 40px;
+
+    }
+
+}
+
+left {
+
+    @include left_leftOne($disp);
+    @include left_leftOne_active($disp);
+    @include left_socialmedia($disp);
+    @include left_socialmedia_action;
+    @include left_tag($disp);
+}
+
+
+nav  #avatar {
+    border-radius: 50%;
+    margin-left: -200px;
+}
+
+nav #create{
+    background-color: blue;
+    width: 150px;
+    color: white;
+    border-radius: 10px;
+    margin-right: -400px;
+}
+
+
+
+
+.leftOne h3 {
+    margin-left: -40px;
+}
+
