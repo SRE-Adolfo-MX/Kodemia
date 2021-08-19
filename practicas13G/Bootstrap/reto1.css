@@ -1,14 +1,22 @@
 #cub1 {
     background-color: red;
     color: transparent;
+    border-color: white;
 }
 
 #cub2 {
     background-color: blue;
     color: transparent;
+    border-color: white;
 }
 
 #cub3 {
     background-color: greenyellow;
     color: transparent;
+    border-color: white;
+}
+
+
+div {
+    border: 5px solid white;
 }

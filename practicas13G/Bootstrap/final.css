@@ -1,0 +1,28 @@
+.rojo {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+
+.verde {
+    background-color: chartreuse;
+}
+
+.morado {
+    background-color:violet;
+}
+
+.rosa{
+    background-color: thistle;
+}
+
+.beige {
+    background-color: orange;
+}
+
+div {
+    border: 1px solid white;
+}
